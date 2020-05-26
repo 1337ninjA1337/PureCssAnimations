@@ -1,12 +1,12 @@
 body{
-    display: flex;
-    width: 100vw;
-    flex-wrap: wrap;
-}
-*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.blurEffect{
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
 }
 .pureCssEl{
     margin: 1em;
@@ -169,4 +169,7 @@ a span:nth-child(4){
     height: 0.6em;
     background: linear-gradient(#000, transparent);
     
+}
+.pureCssEl:{
+    filter: blur(2rem);
 }
